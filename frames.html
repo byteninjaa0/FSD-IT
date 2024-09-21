@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two-Frame Layout with Iframe</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+        }
+
+        /* Left side with links */
+        .menu {
+            width: 30%;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-right: 1px solid #ccc;
+        }
+
+        /* Right side where content loads */
+        .content {
+            width: 70%;
+            border: none;
+            height: 100vh; /* Full height of the screen */
+        }
+
+        /* Styling links */
+        a {
+            display: block;
+            margin: 10px 0;
+            text-decoration: none;
+            color: #333;
+        }
+
+        a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Left frame (Links) -->
+    <div class="menu">
+        <h2>Links</h2>
+        <a href="https://example.com" target="contentFrame">Example</a>
+        <a href="https://wikipedia.org" target="contentFrame">Wikipedia</a>
+        <a href="https://mozilla.org" target="contentFrame">Mozilla</a>
+    </div>
+
+    <!-- Right frame (Content loads here) -->
+    <iframe class="content" name="contentFrame"></iframe>
+
+</body>
+</html>
