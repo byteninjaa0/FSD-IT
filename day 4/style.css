@@ -73,7 +73,7 @@ button{
     display: flex;
     background-color: cadetblue;
     justify-content: space-between;
-    margin: 10px;
+    margin: 11px;
     height: 24px;
 }
 .footerelement{
