@@ -1,0 +1,33 @@
+.h
+{
+background-color: aqua;
+font-size:4rem ;
+
+}
+#head{
+    color: brown;
+}
+#head2{
+    color: blanchedalmond;
+    text-decoration: line-through;
+    text-align: center;
+    
+}
+div>p{
+    text-align: center;
+    font-size: 33px;
+    font-style: italic;
+}
+.fcontainer{
+    display: flex;
+}
+.files
+{
+    height: 10px;
+    width: 300px;
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+
+}

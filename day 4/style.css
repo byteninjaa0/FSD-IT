@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+navbar{
+    display: flex;
+    background-color: blanchedalmond;
+    justify-content: space-between ;
+    font-size: 20px;
+    height: fit-content;
+}
+.logo{
+    margin: 5px;
+}
+.menubar{
+    display: flex;
+    align-items: center;
+}
+.menuitems{
+    border: 3px solid black;
+    margin: 3px;
+    padding: 4px;
+    background-color: blanchedalmond
+    font-size: 10x;
+    border-radius: 2rem;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: white
+    
+    
+}
+.login{
+    display: flex;
+    align-items: center;
+}
+.lgn,.sgn{
+    font-size: 20px;
+}
+.Main-content{
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: aliceblue;
+    margin: 10px;
+    border: 2px solid black;
+}
+.news{
+    width: 30%;
+
+}
+.loginp{
+    width: 40%;
+
+}
+.aboutw{
+    width: 30%;
+
+}
+.aboutw:hover{}
+.loginp{
+    align-content: center;
+    margin-left: 5rem;
+}
+button{
+    font-size: 10px;
+}
+.footer{
+    display: flex;
+    background-color: cadetblue;
+    justify-content: space-between;
+    margin: 10px;
+    height: 25px;
+}
+.footerelement{
+    font-size: 20px;
+}
