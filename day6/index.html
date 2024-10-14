@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>  
+    <!-- <div onclick="addiv()">
+    <h1>heyy</h1>
+    </div>
+    <a href="https://www.abes.ac.in">click</a>
+    <p id="res">
+        hello
+
+    </p>
+   
+    <button id="btn">click here</button> -->
+    <input type="text" name="" id="txt" placeholder="input...>">
+    <p id="res">...</p>
+    <script>
+        // const button=document.querySelector('button');
+        // button.addEventListener('click',() => {document.getElementById('res').innerHTML="updated"});
+        // const button=document.querySelector('button');
+        // button.addEventListener('mouseover',() => {document.querySelector('body').style.backgroundColor = "red"});
+    //     const handleclick = () =>
+    // {
+    //     document.getElementById('btn').style.transition="30rem 0"
+    // }
+    //     let btn=document.getElementById('btn');
+    //     btn.addEventListener('click',handleclick)
+    const handlekeypress = (event) => {
+        document.getElementById('res').innerHTML=event.target.value;
+    }
+    let myinput =document.getElementById('txt');
+    myinput.addEventListener('keypress',handlekeypress);
+
+    </script>
+    <p>
+
+    </p>
+    <P></P>
+    
+</body>
+</html>
