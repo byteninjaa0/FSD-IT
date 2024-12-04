@@ -1,0 +1,37 @@
+#container{
+  box-sizing: border-box;
+  margin: 0 auto;
+  height: 250px;
+  width: max-content;
+  background-color: rgb(252, 248, 248);
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  transition: transform ease-in-out;
+}
+h1{
+  color: red;
+  font-size: 23px;
+  font-family: "Lato",sans-serif;
+}
+h2{
+  color: blue;
+  font-size: 18px;
+}
+h2 span{
+  font-size: 16px;
+  font-family: cursive;
+}
+@keyframes rotate-container {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#container:hover {
+  animation: rotate-container 1s ease-in-out forwards;
+}

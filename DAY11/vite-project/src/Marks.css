@@ -1,0 +1,14 @@
+#container2{
+  border: 1px solid black;
+  padding: 20px;
+  width: max-content;
+  border-radius: 20px;
+}
+#marks{
+  font-size: 26px;
+  color: black;
+}
+#container2 h2{
+  color: rgb(28, 118, 22);
+  font-family: Arial, Helvetica, sans-serif;
+}
