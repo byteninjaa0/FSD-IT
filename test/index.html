@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-c">
+        <div id="question-container">
+            <p id="question-text">Q1: What is the meaning of "alter"?</p>
+            <form class="form">
+                <input type="radio" id="q1a" name="question0" value="change">
+                <label for="q1a">Change</label><br>
+                <input type="radio" id="q1b" name="question0" value="eat">
+                <label for="q1b">Eat</label><br>
+                <input type="radio" id="q1c" name="question0" value="sing">
+                <label for="q1c">Sing</label><br>
+                <input type="radio" id="q1d" name="question0" value="run">
+                <label for="q1d">Run</label><br>
+            </form>
+        </div>
+        <button class="submit" onclick="nextQuestion()">Next</button>
+        <button class="submit" onclick="previousQuestion()">Previous</button>
+        <button class="submit" onclick="calculateScore()">Submit Quiz</button>
+        <p id="score"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

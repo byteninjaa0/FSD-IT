@@ -31,3 +31,4 @@ let addiv=()=>{
     const newDiv = document.createElement('div');
     newDiv.textContent='this is a new div';
 }
+
